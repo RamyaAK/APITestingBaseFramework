@@ -13,7 +13,7 @@ public class PropertiesReader {
 
         String env = BaseProperties.qa_env;
 
-        System.out.println("ENV: "+ BaseProperties.qa_env);
+        System.out.println("Currently on ENV: "+ env);
 
         String propertiesFilePath = env + ".properties";
         InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream(propertiesFilePath);
